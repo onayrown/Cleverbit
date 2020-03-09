@@ -1,0 +1,24 @@
+﻿@model CleverBit.CodingTask.Web.Models.RegionViewModelDTO
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+    <div class="col-12">
+        <select name="RegionId" id="region-id" asp-items="Model.Regions" class="form-control">
+            <option value="">Choose a region</option>
+        </select>
+        <table data-toggle="table" data-pagination="true" data-url="/region/@ViewContext.RouteData.Values["id"]/employees">
+            <thead>
+                <tr>
+                    <th data-field="employeeFullName">Full Name</th>
+                    <th data-field="regions">Region</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+

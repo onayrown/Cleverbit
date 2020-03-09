@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<div class="row">
+    <form asp-controller="region" asp-action="create" method="post">
+        <div class="col-12">
+            <label class="col-form-label">Name</label>
+            <input type="text" name="Name" value="" class="form-control" />
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+</div>
