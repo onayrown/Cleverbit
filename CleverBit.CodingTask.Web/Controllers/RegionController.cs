@@ -12,7 +12,6 @@ namespace CleverBit.CodingTask.Web.Controllers
     [Route("[controller]")]
     public class RegionController : Controller
     {
-        // GET: /region/233/employees
         [HttpGet("{id}/employees")]
         public ActionResult<List<EmployeesRegionsDTO>> Employees(int id)
         {

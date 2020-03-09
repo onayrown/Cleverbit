@@ -7,6 +7,6 @@ namespace CleverBit.CodingTask.Domain.Interfaces
 {
     public interface IRegionRepository : IRepository<Region>
     {
-
+        string GetRegionResourcePath();
     }
 }
