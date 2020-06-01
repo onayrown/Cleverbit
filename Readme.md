@@ -1,5 +1,4 @@
-# Desafio para candidatos à vaga de desenvolvedor Krooze (Equipe GDS) - Felipe Machado
-A proposta desse desafio era poder desenvolver os métodos e funcionalidades desse sistema a partir dos testes unitários. 
+# A proposta desse desafio era poder desenvolver os métodos e funcionalidades desse sistema a partir dos testes unitários. 
 Semelhante à forma que é feita usando TDD (Test-driven development)
 
 ## Instruções de instalação e execução
