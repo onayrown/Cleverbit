@@ -33,3 +33,5 @@ Semelhante à forma que é feita usando TDD (Test-driven development)
  - [.NET Core 2.2](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral)
  - [.NET Core 2.0](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral)
  - [Visual Studio 2017 ou 2019](https://visualstudio.microsoft.com/pt-br/downloads/)
+ 
+ ## PROJETO EM ESTAGIO BASTANTE INICIAL || NÃO CONCLUIDO
